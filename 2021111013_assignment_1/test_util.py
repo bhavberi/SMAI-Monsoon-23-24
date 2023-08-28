@@ -8,7 +8,9 @@ possible_distance_metrics = ["euclidean", "manhattan", "cosine"]
 possible_weights = ["uniform", "distance"]
 possible_encodings = ["resnet", "vit"]
 
-best_model_file_path = "best_model.pkl"
+# best_model_file_path = "best_model.pkl"
+best_model_file_path_vit = "./best_model_vit.pkl"
+best_model_file_path_resnet = "./best_model_resnet.pkl"
 
 def euclidean_dist(pointA, pointB):
     sum = np.sum((pointA - pointB) ** 2)
