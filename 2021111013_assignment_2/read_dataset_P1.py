@@ -64,7 +64,7 @@ def load_data(dir_path):
     return image_list,y_list
 
 def main():
-    dirpath = '../SMAI-PCAdataset/IIIT-CFW/'
+    dirpath = '../Datasets/SMAI-PCAdataset/IIIT-CFW/'
     X,y = load_data(dirpath)
 
     N,H,W = X.shape[0:3]
